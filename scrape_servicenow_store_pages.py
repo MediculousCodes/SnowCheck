@@ -42,7 +42,7 @@ async def download_all_pages():
         page = await browser.new_page()
 
         # Loop through all configured page numbers
-        for pg in range(1, max_pages):
+        for pg in range(1, max_pages + 1):
             url = f"https://store.servicenow.com/store/apps?pg={pg}"
             filename = os.path.join(output_dir, f"pg{pg}.html")
             print(f"Loading page {pg}: {url}")
