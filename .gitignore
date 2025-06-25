@@ -1,2 +1,12 @@
-# Ignore all files in the output folder
+# Ignore all HTML download pages
 servicenow_store_pages/
+app_detail_pages/
+
+# Ignore extracted IDs and generated app data
+ids.json
+application_data.json
+
+# Bytecode and IDE clutter
+__pycache__/
+*.pyc
+.vscode/

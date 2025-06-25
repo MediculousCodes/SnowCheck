@@ -1,6 +1,7 @@
 {
     "storemax_pages": 253, 
     "html_output_dir": "servicenow_store_pages",
-    "app_data_file": "application_data.json"
+    "app_data_file": "application_data.json",
+    "app_detail_dir": "app_detail_pages"
 }
   
